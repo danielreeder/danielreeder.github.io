@@ -1,0 +1,57 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+}
+
+div.header-container { 
+    padding-inline: 2rem;
+    border-bottom: 2px solid lime;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container {
+    padding: 1rem;
+    margin: auto;
+}
+
+.item {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    transition: color 150ms ease-in-out;
+}
+
+.icon {
+    font-size: 3rem;
+}
+
+.link:hover {
+    color: skyblue;
+}
+
+.list {
+    margin-top: 0;
+}
+
+.section-title {
+    margin-bottom: .5rem;
+}
+
+.item-title {
+    margin-top: .5rem;
+}
+
+.container {
+    margin-bottom: 2rem;
+}
